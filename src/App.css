@@ -1,0 +1,44 @@
+.center {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.button {
+  background-color: #353550;
+  border: 0;
+  padding:10px 15px;
+  border-radius: 100px;
+  text-decoration: none; 
+  display: inline-block;
+
+
+
+}
+
+.transparent-box {
+  background-color: rgba(70,70,100,.2);
+  outline: solid #666688 2px;
+}
+
+.primary {
+  background-color: #4d3dc7;
+}
+
+.secondary {
+  background-color: #d5d5da;
+  color: #444444;
+
+}
+
+.centerText {
+  text-align: center;
+
+}
+
+
+.tos {
+  margin: 50px 10%;
+  font-size: 1.3em;
+}

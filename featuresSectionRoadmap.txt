@@ -1,0 +1,10 @@
+features:
+
+1. spawn naming and pings check
+2. auctions check
+3. leaderboards? check
+
+6. starboard check - add manual starboard image
+
+4. locking
+5. pokedex 
