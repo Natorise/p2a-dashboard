@@ -1,10 +1,9 @@
 .home > * {
-margin: 80px;
+margin: 80px 0;
 }
 
 .home {
   animation: slideUp 0.6s ease-out forwards;
-
 }
 
 

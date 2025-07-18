@@ -2,18 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #333333; */
   padding: 10px 10%;
-  
-
-}
-
-.navbar button {
-  font-size: 1em;
 }
 
 .name {
   font-size: 1.5em;
+  font-weight: 600;
+}
+
+.add,
+.navLinks {
+  font-size: 1.2em;
 }
 
 .navLinks {
@@ -22,14 +21,65 @@
 
 .navLinks li {
   display: inline-block;
-  
-}
-
-.navLinks li {
   padding: 0 20px;
 }
 
-
 .navbar a {
-  text-decoration: none; 
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+
+  .navLinks li {
+    font-size: 1.3em;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navLinks li a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .add {
+    font-size: 1.3em;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+
+  .nav,
+  .add {
+    text-align: center;
+    display: none;
+    width: 90%;
+  }
+
+  .navbar.open {
+    box-shadow: 0 0 10px rgba(30, 30, 30, 0.5);
+  }
+
+  .navbar.open .nav,
+  .navbar.open .add {
+    display: inline-block;
+  }
 }
