@@ -50,6 +50,21 @@ const Features = () => {
       >
         <img src="/features/starboard.png" />
       </Feature>
+
+      <Feature
+        name="Pokédex"
+        desc="View info about Pokémon, movesets, weaknesses, and more!"
+      >
+        <img src="/features/moves.png" />
+        <img src="/features/weak.png" />
+      </Feature>
+
+      <Feature
+        name="Locking"
+        desc="P2 Assistant can automatically lock Pokémon which you are shiny hunting to prevent them from despawning!"
+      >
+        <img src="/features/lock.png" />
+      </Feature>
     </div>
   );
 };

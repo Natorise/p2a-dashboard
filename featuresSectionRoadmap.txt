@@ -6,5 +6,5 @@ features:
 
 6. starboard check - add manual starboard image
 
-4. locking
-5. pokedex 
+4. locking check
+5. pokedex check
